@@ -1,0 +1,2931 @@
+{
+  "since": "daily",
+  "language": null,
+  "generatedAt": "2026-11-08T03:20:00.000Z",
+  "repos": [
+    {
+      "rank": 1,
+      "owner": "octo-labs",
+      "name": "llm-agent-kit",
+      "fullName": "octo-labs/llm-agent-kit",
+      "url": "https://github.com/octo-labs/llm-agent-kit",
+      "description": "An LLM agent framework for GPT and Claude with RAG support",
+      "tldr": "Build LLM agents",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 1137,
+      "forks": 87,
+      "delta": 51,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.042,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "ai",
+          "zh": "AI / 大模型",
+          "en": "AI / LLM"
+        },
+        {
+          "key": "learning",
+          "zh": "学习",
+          "en": "Learning"
+        }
+      ],
+      "category": "ai",
+      "categoryZh": "AI / 大模型",
+      "categoryEn": "AI / LLM",
+      "stack": [
+        "Python",
+        "Tool 1"
+      ],
+      "topics": [
+        "ai",
+        "llm"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for llm-agent-kit."
+        }
+      ],
+      "aiModels": [
+        "GPT-4o",
+        "Claude 3.5 Sonnet",
+        "Gemini 1.5 Pro",
+        "Llama 3"
+      ],
+      "readmeZh": true,
+      "intro": "Intro for llm-agent-kit"
+    },
+    {
+      "rank": 2,
+      "owner": "quiet-owner",
+      "name": "quiet-utils",
+      "fullName": "quiet-owner/quiet-utils",
+      "url": "https://github.com/quiet-owner/quiet-utils",
+      "description": "Small helper functions for everyday scripting",
+      "tldr": "Tiny helpers",
+      "language": "Zig",
+      "languageColor": "#3572A5",
+      "stars": 1274,
+      "forks": 94,
+      "delta": 62,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.044,
+      "riskLevel": "high",
+      "categories": [],
+      "category": "",
+      "categoryZh": "",
+      "categoryEn": "",
+      "stack": [
+        "Zig",
+        "Tool 2"
+      ],
+      "topics": [
+        "utilities"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for quiet-utils."
+        }
+      ],
+      "readmeZh": true,
+      "intro": "Intro for quiet-utils"
+    },
+    {
+      "rank": 3,
+      "owner": "web-studio",
+      "name": "react-canvas",
+      "fullName": "web-studio/react-canvas",
+      "url": "https://github.com/web-studio/react-canvas",
+      "description": "React canvas component library",
+      "tldr": "A concise summary for react-canvas",
+      "language": "TypeScript",
+      "languageColor": "#3572A5",
+      "stars": 1411,
+      "forks": 101,
+      "delta": 73,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.046,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "web",
+          "zh": "Web / 前端",
+          "en": "Web / frontend"
+        }
+      ],
+      "category": "web",
+      "categoryZh": "Web / 前端",
+      "categoryEn": "Web / frontend",
+      "stack": [
+        "TypeScript",
+        "Tool 3"
+      ],
+      "topics": [
+        "react",
+        "canvas"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for react-canvas."
+        }
+      ],
+      "intro": "Intro for react-canvas"
+    },
+    {
+      "rank": 4,
+      "owner": "infra-team",
+      "name": "kube-scheduler",
+      "fullName": "infra-team/kube-scheduler",
+      "url": "https://github.com/infra-team/kube-scheduler",
+      "description": "Kubernetes scheduling toolkit",
+      "tldr": "A concise summary for kube-scheduler",
+      "language": "Go",
+      "languageColor": "#3572A5",
+      "stars": 1548,
+      "forks": 108,
+      "delta": 84,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.048,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "infra",
+          "zh": "基础设施 / 云原生",
+          "en": "Infra / cloud native"
+        }
+      ],
+      "category": "infra",
+      "categoryZh": "基础设施 / 云原生",
+      "categoryEn": "Infra / cloud native",
+      "stack": [
+        "Go",
+        "Tool 4"
+      ],
+      "topics": [
+        "kubernetes"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for kube-scheduler."
+        }
+      ],
+      "intro": "Intro for kube-scheduler"
+    },
+    {
+      "rank": 5,
+      "owner": "data-forge",
+      "name": "rust-query-engine",
+      "fullName": "data-forge/rust-query-engine",
+      "url": "https://github.com/data-forge/rust-query-engine",
+      "description": "Embedded SQL query engine",
+      "tldr": "A concise summary for rust-query-engine",
+      "language": "Rust",
+      "languageColor": "#3572A5",
+      "stars": 1685,
+      "forks": 115,
+      "delta": 95,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.05,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "data",
+          "zh": "数据 / 数据库",
+          "en": "Data / database"
+        }
+      ],
+      "category": "data",
+      "categoryZh": "数据 / 数据库",
+      "categoryEn": "Data / database",
+      "stack": [
+        "Rust",
+        "Tool 0"
+      ],
+      "topics": [
+        "database",
+        "sql"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for rust-query-engine."
+        }
+      ],
+      "intro": "Intro for rust-query-engine"
+    },
+    {
+      "rank": 6,
+      "owner": "sec-labs",
+      "name": "secure-scan",
+      "fullName": "sec-labs/secure-scan",
+      "url": "https://github.com/sec-labs/secure-scan",
+      "description": "Vulnerability scanner for containers",
+      "tldr": "A concise summary for secure-scan",
+      "language": "Rust",
+      "languageColor": "#3572A5",
+      "stars": 1822,
+      "forks": 122,
+      "delta": 106,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.052000000000000005,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "security",
+          "zh": "安全",
+          "en": "Security"
+        }
+      ],
+      "category": "security",
+      "categoryZh": "安全",
+      "categoryEn": "Security",
+      "stack": [
+        "Rust",
+        "Tool 1"
+      ],
+      "topics": [
+        "security"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for secure-scan."
+        }
+      ],
+      "intro": "Intro for secure-scan"
+    },
+    {
+      "rank": 7,
+      "owner": "owner-7",
+      "name": "project-7",
+      "fullName": "owner-7/project-7",
+      "url": "https://github.com/owner-7/project-7",
+      "description": "Demo project for Mobile",
+      "tldr": "A concise summary for project-7",
+      "language": "Kotlin",
+      "languageColor": "#3572A5",
+      "stars": 1959,
+      "forks": 129,
+      "delta": 117,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.054,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "mobile",
+          "zh": "移动端",
+          "en": "Mobile"
+        }
+      ],
+      "category": "mobile",
+      "categoryZh": "移动端",
+      "categoryEn": "Mobile",
+      "stack": [
+        "Kotlin",
+        "Tool 2"
+      ],
+      "topics": [
+        "mobile"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-7."
+        }
+      ],
+      "intro": "Intro for project-7"
+    },
+    {
+      "rank": 8,
+      "owner": "owner-8",
+      "name": "project-8",
+      "fullName": "owner-8/project-8",
+      "url": "https://github.com/owner-8/project-8",
+      "description": "Demo project for Blockchain / Web3",
+      "tldr": "A concise summary for project-8",
+      "language": "Swift",
+      "languageColor": "#3572A5",
+      "stars": 2096,
+      "forks": 136,
+      "delta": 128,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.056,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "blockchain",
+          "zh": "区块链 / Web3",
+          "en": "Blockchain / Web3"
+        }
+      ],
+      "category": "blockchain",
+      "categoryZh": "区块链 / Web3",
+      "categoryEn": "Blockchain / Web3",
+      "stack": [
+        "Swift",
+        "Tool 3"
+      ],
+      "topics": [
+        "blockchain"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-8."
+        }
+      ],
+      "intro": "Intro for project-8"
+    },
+    {
+      "rank": 9,
+      "owner": "owner-9",
+      "name": "project-9",
+      "fullName": "owner-9/project-9",
+      "url": "https://github.com/owner-9/project-9",
+      "description": "Demo project for Learning",
+      "tldr": "A concise summary for project-9",
+      "language": "Dart",
+      "languageColor": "#3572A5",
+      "stars": 2233,
+      "forks": 143,
+      "delta": 139,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.057999999999999996,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "learning",
+          "zh": "学习",
+          "en": "Learning"
+        }
+      ],
+      "category": "learning",
+      "categoryZh": "学习",
+      "categoryEn": "Learning",
+      "stack": [
+        "Dart",
+        "Tool 4"
+      ],
+      "topics": [
+        "learning"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-9."
+        }
+      ],
+      "intro": "Intro for project-9"
+    },
+    {
+      "rank": 10,
+      "owner": "owner-10",
+      "name": "project-10",
+      "fullName": "owner-10/project-10",
+      "url": "https://github.com/owner-10/project-10",
+      "description": "Demo project for Productivity",
+      "tldr": "A concise summary for project-10",
+      "language": "Ruby",
+      "languageColor": "#3572A5",
+      "stars": 2370,
+      "forks": 150,
+      "delta": 150,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.06,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "productivity",
+          "zh": "效率 / 自动化",
+          "en": "Productivity"
+        }
+      ],
+      "category": "productivity",
+      "categoryZh": "效率 / 自动化",
+      "categoryEn": "Productivity",
+      "stack": [
+        "Ruby",
+        "Tool 0"
+      ],
+      "topics": [
+        "productivity"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-10."
+        }
+      ],
+      "intro": "Intro for project-10"
+    },
+    {
+      "rank": 11,
+      "owner": "owner-11",
+      "name": "project-11",
+      "fullName": "owner-11/project-11",
+      "url": "https://github.com/owner-11/project-11",
+      "description": "Demo project for Game / graphics",
+      "tldr": "A concise summary for project-11",
+      "language": "Zig",
+      "languageColor": "#3572A5",
+      "stars": 2507,
+      "forks": 157,
+      "delta": 161,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.062,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "game",
+          "zh": "游戏 / 图形",
+          "en": "Game / graphics"
+        }
+      ],
+      "category": "game",
+      "categoryZh": "游戏 / 图形",
+      "categoryEn": "Game / graphics",
+      "stack": [
+        "Zig",
+        "Tool 1"
+      ],
+      "topics": [
+        "game"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-11."
+        }
+      ],
+      "readmeZh": true,
+      "intro": "Intro for project-11"
+    },
+    {
+      "rank": 12,
+      "owner": "owner-12",
+      "name": "project-12",
+      "fullName": "owner-12/project-12",
+      "url": "https://github.com/owner-12/project-12",
+      "description": "Demo project for Hardware / embedded",
+      "tldr": "A concise summary for project-12",
+      "language": "Lua",
+      "languageColor": "#3572A5",
+      "stars": 2644,
+      "forks": 164,
+      "delta": 172,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.064,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "hardware",
+          "zh": "硬件 / 嵌入式",
+          "en": "Hardware / embedded"
+        }
+      ],
+      "category": "hardware",
+      "categoryZh": "硬件 / 嵌入式",
+      "categoryEn": "Hardware / embedded",
+      "stack": [
+        "Lua",
+        "Tool 2"
+      ],
+      "topics": [
+        "hardware"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-12."
+        }
+      ],
+      "intro": "Intro for project-12"
+    },
+    {
+      "rank": 13,
+      "owner": "owner-13",
+      "name": "project-13",
+      "fullName": "owner-13/project-13",
+      "url": "https://github.com/owner-13/project-13",
+      "description": "Demo project for Research",
+      "tldr": "A concise summary for project-13",
+      "language": "C#",
+      "languageColor": "#3572A5",
+      "stars": 2781,
+      "forks": 171,
+      "delta": 183,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.066,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "research",
+          "zh": "科研 / 论文",
+          "en": "Research"
+        }
+      ],
+      "category": "research",
+      "categoryZh": "科研 / 论文",
+      "categoryEn": "Research",
+      "stack": [
+        "C#",
+        "Tool 3"
+      ],
+      "topics": [
+        "research"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-13."
+        }
+      ],
+      "intro": "Intro for project-13"
+    },
+    {
+      "rank": 14,
+      "owner": "owner-14",
+      "name": "project-14",
+      "fullName": "owner-14/project-14",
+      "url": "https://github.com/owner-14/project-14",
+      "description": "Demo project for AI / LLM",
+      "tldr": "A concise summary for project-14",
+      "language": "PHP",
+      "languageColor": "#3572A5",
+      "stars": 2918,
+      "forks": 178,
+      "delta": 194,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.068,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "ai",
+          "zh": "AI / 大模型",
+          "en": "AI / LLM"
+        }
+      ],
+      "category": "ai",
+      "categoryZh": "AI / 大模型",
+      "categoryEn": "AI / LLM",
+      "stack": [
+        "PHP",
+        "Tool 4"
+      ],
+      "topics": [
+        "ai"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-14."
+        }
+      ],
+      "aiModels": [
+        "DeepSeek-V3",
+        "Qwen2.5"
+      ],
+      "readmeZh": true,
+      "intro": "Intro for project-14"
+    },
+    {
+      "rank": 15,
+      "owner": "owner-15",
+      "name": "project-15",
+      "fullName": "owner-15/project-15",
+      "url": "https://github.com/owner-15/project-15",
+      "description": "Demo project for Developer tools",
+      "tldr": "A concise summary for project-15",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 3055,
+      "forks": 185,
+      "delta": 205,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.07,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "devtool",
+          "zh": "开发者工具",
+          "en": "Developer tools"
+        }
+      ],
+      "category": "devtool",
+      "categoryZh": "开发者工具",
+      "categoryEn": "Developer tools",
+      "stack": [
+        "Python",
+        "Tool 0"
+      ],
+      "topics": [
+        "devtool"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-15."
+        }
+      ],
+      "intro": "Intro for project-15"
+    },
+    {
+      "rank": 16,
+      "owner": "owner-16",
+      "name": "project-16",
+      "fullName": "owner-16/project-16",
+      "url": "https://github.com/owner-16/project-16",
+      "description": "Demo project for Web / frontend",
+      "tldr": "A concise summary for project-16",
+      "language": "TypeScript",
+      "languageColor": "#3572A5",
+      "stars": 3192,
+      "forks": 192,
+      "delta": 216,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.07200000000000001,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "web",
+          "zh": "Web / 前端",
+          "en": "Web / frontend"
+        }
+      ],
+      "category": "web",
+      "categoryZh": "Web / 前端",
+      "categoryEn": "Web / frontend",
+      "stack": [
+        "TypeScript",
+        "Tool 1"
+      ],
+      "topics": [
+        "web"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-16."
+        }
+      ],
+      "intro": "Intro for project-16"
+    },
+    {
+      "rank": 17,
+      "owner": "owner-17",
+      "name": "project-17",
+      "fullName": "owner-17/project-17",
+      "url": "https://github.com/owner-17/project-17",
+      "description": "Demo project for Infra / cloud native",
+      "tldr": "A concise summary for project-17",
+      "language": "Rust",
+      "languageColor": "#3572A5",
+      "stars": 3329,
+      "forks": 199,
+      "delta": 227,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.07400000000000001,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "infra",
+          "zh": "基础设施 / 云原生",
+          "en": "Infra / cloud native"
+        }
+      ],
+      "category": "infra",
+      "categoryZh": "基础设施 / 云原生",
+      "categoryEn": "Infra / cloud native",
+      "stack": [
+        "Rust",
+        "Tool 2"
+      ],
+      "topics": [
+        "infra"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-17."
+        }
+      ],
+      "intro": "Intro for project-17"
+    },
+    {
+      "rank": 18,
+      "owner": "owner-18",
+      "name": "project-18",
+      "fullName": "owner-18/project-18",
+      "url": "https://github.com/owner-18/project-18",
+      "description": "Demo project for Data / database",
+      "tldr": "A concise summary for project-18",
+      "language": "Go",
+      "languageColor": "#3572A5",
+      "stars": 3466,
+      "forks": 206,
+      "delta": 238,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.076,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "data",
+          "zh": "数据 / 数据库",
+          "en": "Data / database"
+        }
+      ],
+      "category": "data",
+      "categoryZh": "数据 / 数据库",
+      "categoryEn": "Data / database",
+      "stack": [
+        "Go",
+        "Tool 3"
+      ],
+      "topics": [
+        "data"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-18."
+        }
+      ],
+      "intro": "Intro for project-18"
+    },
+    {
+      "rank": 19,
+      "owner": "owner-19",
+      "name": "project-19",
+      "fullName": "owner-19/project-19",
+      "url": "https://github.com/owner-19/project-19",
+      "description": "Demo project for Security",
+      "tldr": "A concise summary for project-19",
+      "language": "C++",
+      "languageColor": "#3572A5",
+      "stars": 3603,
+      "forks": 213,
+      "delta": 249,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.078,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "security",
+          "zh": "安全",
+          "en": "Security"
+        }
+      ],
+      "category": "security",
+      "categoryZh": "安全",
+      "categoryEn": "Security",
+      "stack": [
+        "C++",
+        "Tool 4"
+      ],
+      "topics": [
+        "security"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-19."
+        }
+      ],
+      "intro": "Intro for project-19"
+    },
+    {
+      "rank": 20,
+      "owner": "owner-20",
+      "name": "project-20",
+      "fullName": "owner-20/project-20",
+      "url": "https://github.com/owner-20/project-20",
+      "description": "Demo project for Mobile",
+      "tldr": "A concise summary for project-20",
+      "language": "Java",
+      "languageColor": "#3572A5",
+      "stars": 3740,
+      "forks": 220,
+      "delta": 260,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.08,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "mobile",
+          "zh": "移动端",
+          "en": "Mobile"
+        }
+      ],
+      "category": "mobile",
+      "categoryZh": "移动端",
+      "categoryEn": "Mobile",
+      "stack": [
+        "Java",
+        "Tool 0"
+      ],
+      "topics": [
+        "mobile"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-20."
+        }
+      ],
+      "intro": "Intro for project-20"
+    },
+    {
+      "rank": 21,
+      "owner": "owner-21",
+      "name": "project-21",
+      "fullName": "owner-21/project-21",
+      "url": "https://github.com/owner-21/project-21",
+      "description": "Demo project for Blockchain / Web3",
+      "tldr": "A concise summary for project-21",
+      "language": "Kotlin",
+      "languageColor": "#3572A5",
+      "stars": 3877,
+      "forks": 227,
+      "delta": 271,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.082,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "blockchain",
+          "zh": "区块链 / Web3",
+          "en": "Blockchain / Web3"
+        }
+      ],
+      "category": "blockchain",
+      "categoryZh": "区块链 / Web3",
+      "categoryEn": "Blockchain / Web3",
+      "stack": [
+        "Kotlin",
+        "Tool 1"
+      ],
+      "topics": [
+        "blockchain"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-21."
+        }
+      ],
+      "intro": "Intro for project-21"
+    },
+    {
+      "rank": 22,
+      "owner": "owner-22",
+      "name": "project-22",
+      "fullName": "owner-22/project-22",
+      "url": "https://github.com/owner-22/project-22",
+      "description": "Demo project for Learning",
+      "tldr": "A concise summary for project-22",
+      "language": "Swift",
+      "languageColor": "#3572A5",
+      "stars": 4014,
+      "forks": 234,
+      "delta": 282,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.08399999999999999,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "learning",
+          "zh": "学习",
+          "en": "Learning"
+        }
+      ],
+      "category": "learning",
+      "categoryZh": "学习",
+      "categoryEn": "Learning",
+      "stack": [
+        "Swift",
+        "Tool 2"
+      ],
+      "topics": [
+        "learning"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-22."
+        }
+      ],
+      "intro": "Intro for project-22"
+    },
+    {
+      "rank": 23,
+      "owner": "owner-23",
+      "name": "project-23",
+      "fullName": "owner-23/project-23",
+      "url": "https://github.com/owner-23/project-23",
+      "description": "Demo project for Productivity",
+      "tldr": "A concise summary for project-23",
+      "language": "Dart",
+      "languageColor": "#3572A5",
+      "stars": 4151,
+      "forks": 241,
+      "delta": 293,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.086,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "productivity",
+          "zh": "效率 / 自动化",
+          "en": "Productivity"
+        }
+      ],
+      "category": "productivity",
+      "categoryZh": "效率 / 自动化",
+      "categoryEn": "Productivity",
+      "stack": [
+        "Dart",
+        "Tool 3"
+      ],
+      "topics": [
+        "productivity"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-23."
+        }
+      ],
+      "intro": "Intro for project-23"
+    },
+    {
+      "rank": 24,
+      "owner": "owner-24",
+      "name": "project-24",
+      "fullName": "owner-24/project-24",
+      "url": "https://github.com/owner-24/project-24",
+      "description": "Demo project for Game / graphics",
+      "tldr": "A concise summary for project-24",
+      "language": "Ruby",
+      "languageColor": "#3572A5",
+      "stars": 4288,
+      "forks": 248,
+      "delta": 304,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.088,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "game",
+          "zh": "游戏 / 图形",
+          "en": "Game / graphics"
+        }
+      ],
+      "category": "game",
+      "categoryZh": "游戏 / 图形",
+      "categoryEn": "Game / graphics",
+      "stack": [
+        "Ruby",
+        "Tool 4"
+      ],
+      "topics": [
+        "game"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-24."
+        }
+      ],
+      "intro": "Intro for project-24"
+    },
+    {
+      "rank": 25,
+      "owner": "owner-25",
+      "name": "project-25",
+      "fullName": "owner-25/project-25",
+      "url": "https://github.com/owner-25/project-25",
+      "description": "Demo project for Hardware / embedded",
+      "tldr": "A concise summary for project-25",
+      "language": "Zig",
+      "languageColor": "#3572A5",
+      "stars": 4425,
+      "forks": 255,
+      "delta": 315,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.09,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "hardware",
+          "zh": "硬件 / 嵌入式",
+          "en": "Hardware / embedded"
+        }
+      ],
+      "category": "hardware",
+      "categoryZh": "硬件 / 嵌入式",
+      "categoryEn": "Hardware / embedded",
+      "stack": [
+        "Zig",
+        "Tool 0"
+      ],
+      "topics": [
+        "hardware"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-25."
+        }
+      ],
+      "intro": "Intro for project-25"
+    },
+    {
+      "rank": 26,
+      "owner": "owner-26",
+      "name": "project-26",
+      "fullName": "owner-26/project-26",
+      "url": "https://github.com/owner-26/project-26",
+      "description": "Demo project for Research",
+      "tldr": "A concise summary for project-26",
+      "language": "Lua",
+      "languageColor": "#3572A5",
+      "stars": 4562,
+      "forks": 262,
+      "delta": 326,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.092,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "research",
+          "zh": "科研 / 论文",
+          "en": "Research"
+        }
+      ],
+      "category": "research",
+      "categoryZh": "科研 / 论文",
+      "categoryEn": "Research",
+      "stack": [
+        "Lua",
+        "Tool 1"
+      ],
+      "topics": [
+        "research"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-26."
+        }
+      ],
+      "intro": "Intro for project-26"
+    },
+    {
+      "rank": 27,
+      "owner": "owner-27",
+      "name": "project-27",
+      "fullName": "owner-27/project-27",
+      "url": "https://github.com/owner-27/project-27",
+      "description": "Demo project for AI / LLM",
+      "tldr": "A concise summary for project-27",
+      "language": "C#",
+      "languageColor": "#3572A5",
+      "stars": 4699,
+      "forks": 269,
+      "delta": 337,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.094,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "ai",
+          "zh": "AI / 大模型",
+          "en": "AI / LLM"
+        }
+      ],
+      "category": "ai",
+      "categoryZh": "AI / 大模型",
+      "categoryEn": "AI / LLM",
+      "stack": [
+        "C#",
+        "Tool 2"
+      ],
+      "topics": [
+        "ai"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-27."
+        }
+      ],
+      "intro": "Intro for project-27"
+    },
+    {
+      "rank": 28,
+      "owner": "owner-28",
+      "name": "project-28",
+      "fullName": "owner-28/project-28",
+      "url": "https://github.com/owner-28/project-28",
+      "description": "Demo project for Developer tools",
+      "tldr": "A concise summary for project-28",
+      "language": "PHP",
+      "languageColor": "#3572A5",
+      "stars": 4836,
+      "forks": 276,
+      "delta": 348,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.096,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "devtool",
+          "zh": "开发者工具",
+          "en": "Developer tools"
+        }
+      ],
+      "category": "devtool",
+      "categoryZh": "开发者工具",
+      "categoryEn": "Developer tools",
+      "stack": [
+        "PHP",
+        "Tool 3"
+      ],
+      "topics": [
+        "devtool"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-28."
+        }
+      ],
+      "intro": "Intro for project-28"
+    },
+    {
+      "rank": 29,
+      "owner": "owner-29",
+      "name": "project-29",
+      "fullName": "owner-29/project-29",
+      "url": "https://github.com/owner-29/project-29",
+      "description": "Demo project for Web / frontend",
+      "tldr": "A concise summary for project-29",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 4973,
+      "forks": 283,
+      "delta": 359,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.098,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "web",
+          "zh": "Web / 前端",
+          "en": "Web / frontend"
+        }
+      ],
+      "category": "web",
+      "categoryZh": "Web / 前端",
+      "categoryEn": "Web / frontend",
+      "stack": [
+        "Python",
+        "Tool 4"
+      ],
+      "topics": [
+        "web"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-29."
+        }
+      ],
+      "intro": "Intro for project-29"
+    },
+    {
+      "rank": 30,
+      "owner": "owner-30",
+      "name": "project-30",
+      "fullName": "owner-30/project-30",
+      "url": "https://github.com/owner-30/project-30",
+      "description": "Demo project for Infra / cloud native",
+      "tldr": "A concise summary for project-30",
+      "language": "TypeScript",
+      "languageColor": "#3572A5",
+      "stars": 5110,
+      "forks": 290,
+      "delta": 370,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.1,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "infra",
+          "zh": "基础设施 / 云原生",
+          "en": "Infra / cloud native"
+        }
+      ],
+      "category": "infra",
+      "categoryZh": "基础设施 / 云原生",
+      "categoryEn": "Infra / cloud native",
+      "stack": [
+        "TypeScript",
+        "Tool 0"
+      ],
+      "topics": [
+        "infra"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-30."
+        }
+      ],
+      "intro": "Intro for project-30"
+    },
+    {
+      "rank": 31,
+      "owner": "owner-31",
+      "name": "project-31",
+      "fullName": "owner-31/project-31",
+      "url": "https://github.com/owner-31/project-31",
+      "description": "Demo project for Data / database",
+      "tldr": "A concise summary for project-31",
+      "language": "Rust",
+      "languageColor": "#3572A5",
+      "stars": 5247,
+      "forks": 297,
+      "delta": 381,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.10200000000000001,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "data",
+          "zh": "数据 / 数据库",
+          "en": "Data / database"
+        }
+      ],
+      "category": "data",
+      "categoryZh": "数据 / 数据库",
+      "categoryEn": "Data / database",
+      "stack": [
+        "Rust",
+        "Tool 1"
+      ],
+      "topics": [
+        "data"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-31."
+        }
+      ],
+      "intro": "Intro for project-31"
+    },
+    {
+      "rank": 32,
+      "owner": "owner-32",
+      "name": "project-32",
+      "fullName": "owner-32/project-32",
+      "url": "https://github.com/owner-32/project-32",
+      "description": "Demo project for Security",
+      "tldr": "A concise summary for project-32",
+      "language": "Go",
+      "languageColor": "#3572A5",
+      "stars": 5384,
+      "forks": 304,
+      "delta": 392,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.10400000000000001,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "security",
+          "zh": "安全",
+          "en": "Security"
+        }
+      ],
+      "category": "security",
+      "categoryZh": "安全",
+      "categoryEn": "Security",
+      "stack": [
+        "Go",
+        "Tool 2"
+      ],
+      "topics": [
+        "security"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-32."
+        }
+      ],
+      "intro": "Intro for project-32"
+    },
+    {
+      "rank": 33,
+      "owner": "owner-33",
+      "name": "project-33",
+      "fullName": "owner-33/project-33",
+      "url": "https://github.com/owner-33/project-33",
+      "description": "Demo project for Mobile",
+      "tldr": "A concise summary for project-33",
+      "language": "C++",
+      "languageColor": "#3572A5",
+      "stars": 5521,
+      "forks": 311,
+      "delta": 403,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.10600000000000001,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "mobile",
+          "zh": "移动端",
+          "en": "Mobile"
+        }
+      ],
+      "category": "mobile",
+      "categoryZh": "移动端",
+      "categoryEn": "Mobile",
+      "stack": [
+        "C++",
+        "Tool 3"
+      ],
+      "topics": [
+        "mobile"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-33."
+        }
+      ],
+      "intro": "Intro for project-33"
+    },
+    {
+      "rank": 34,
+      "owner": "owner-34",
+      "name": "project-34",
+      "fullName": "owner-34/project-34",
+      "url": "https://github.com/owner-34/project-34",
+      "description": "Demo project for Blockchain / Web3",
+      "tldr": "A concise summary for project-34",
+      "language": "Java",
+      "languageColor": "#3572A5",
+      "stars": 5658,
+      "forks": 318,
+      "delta": 414,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.10800000000000001,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "blockchain",
+          "zh": "区块链 / Web3",
+          "en": "Blockchain / Web3"
+        }
+      ],
+      "category": "blockchain",
+      "categoryZh": "区块链 / Web3",
+      "categoryEn": "Blockchain / Web3",
+      "stack": [
+        "Java",
+        "Tool 4"
+      ],
+      "topics": [
+        "blockchain"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-34."
+        }
+      ],
+      "intro": "Intro for project-34"
+    },
+    {
+      "rank": 35,
+      "owner": "owner-35",
+      "name": "project-35",
+      "fullName": "owner-35/project-35",
+      "url": "https://github.com/owner-35/project-35",
+      "description": "Demo project for Learning",
+      "tldr": "A concise summary for project-35",
+      "language": "Kotlin",
+      "languageColor": "#3572A5",
+      "stars": 5795,
+      "forks": 325,
+      "delta": 425,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.11000000000000001,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "learning",
+          "zh": "学习",
+          "en": "Learning"
+        }
+      ],
+      "category": "learning",
+      "categoryZh": "学习",
+      "categoryEn": "Learning",
+      "stack": [
+        "Kotlin",
+        "Tool 0"
+      ],
+      "topics": [
+        "learning"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-35."
+        }
+      ],
+      "intro": "Intro for project-35"
+    },
+    {
+      "rank": 36,
+      "owner": "owner-36",
+      "name": "project-36",
+      "fullName": "owner-36/project-36",
+      "url": "https://github.com/owner-36/project-36",
+      "description": "Demo project for Productivity",
+      "tldr": "A concise summary for project-36",
+      "language": "Swift",
+      "languageColor": "#3572A5",
+      "stars": 5932,
+      "forks": 332,
+      "delta": 436,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.11199999999999999,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "productivity",
+          "zh": "效率 / 自动化",
+          "en": "Productivity"
+        }
+      ],
+      "category": "productivity",
+      "categoryZh": "效率 / 自动化",
+      "categoryEn": "Productivity",
+      "stack": [
+        "Swift",
+        "Tool 1"
+      ],
+      "topics": [
+        "productivity"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-36."
+        }
+      ],
+      "intro": "Intro for project-36"
+    },
+    {
+      "rank": 37,
+      "owner": "owner-37",
+      "name": "project-37",
+      "fullName": "owner-37/project-37",
+      "url": "https://github.com/owner-37/project-37",
+      "description": "Demo project for Game / graphics",
+      "tldr": "A concise summary for project-37",
+      "language": "Dart",
+      "languageColor": "#3572A5",
+      "stars": 6069,
+      "forks": 339,
+      "delta": 447,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.11399999999999999,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "game",
+          "zh": "游戏 / 图形",
+          "en": "Game / graphics"
+        }
+      ],
+      "category": "game",
+      "categoryZh": "游戏 / 图形",
+      "categoryEn": "Game / graphics",
+      "stack": [
+        "Dart",
+        "Tool 2"
+      ],
+      "topics": [
+        "game"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-37."
+        }
+      ],
+      "intro": "Intro for project-37"
+    },
+    {
+      "rank": 38,
+      "owner": "owner-38",
+      "name": "project-38",
+      "fullName": "owner-38/project-38",
+      "url": "https://github.com/owner-38/project-38",
+      "description": "Demo project for Hardware / embedded",
+      "tldr": "A concise summary for project-38",
+      "language": "Ruby",
+      "languageColor": "#3572A5",
+      "stars": 6206,
+      "forks": 346,
+      "delta": 458,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.11599999999999999,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "hardware",
+          "zh": "硬件 / 嵌入式",
+          "en": "Hardware / embedded"
+        }
+      ],
+      "category": "hardware",
+      "categoryZh": "硬件 / 嵌入式",
+      "categoryEn": "Hardware / embedded",
+      "stack": [
+        "Ruby",
+        "Tool 3"
+      ],
+      "topics": [
+        "hardware"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-38."
+        }
+      ],
+      "intro": "Intro for project-38"
+    },
+    {
+      "rank": 39,
+      "owner": "owner-39",
+      "name": "project-39",
+      "fullName": "owner-39/project-39",
+      "url": "https://github.com/owner-39/project-39",
+      "description": "Demo project for Research",
+      "tldr": "A concise summary for project-39",
+      "language": "Zig",
+      "languageColor": "#3572A5",
+      "stars": 6343,
+      "forks": 353,
+      "delta": 469,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.118,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "research",
+          "zh": "科研 / 论文",
+          "en": "Research"
+        }
+      ],
+      "category": "research",
+      "categoryZh": "科研 / 论文",
+      "categoryEn": "Research",
+      "stack": [
+        "Zig",
+        "Tool 4"
+      ],
+      "topics": [
+        "research"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-39."
+        }
+      ],
+      "intro": "Intro for project-39"
+    },
+    {
+      "rank": 40,
+      "owner": "owner-40",
+      "name": "project-40",
+      "fullName": "owner-40/project-40",
+      "url": "https://github.com/owner-40/project-40",
+      "description": "Demo project for AI / LLM",
+      "tldr": "A concise summary for project-40",
+      "language": "Lua",
+      "languageColor": "#3572A5",
+      "stars": 6480,
+      "forks": 360,
+      "delta": 480,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.12,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "ai",
+          "zh": "AI / 大模型",
+          "en": "AI / LLM"
+        }
+      ],
+      "category": "ai",
+      "categoryZh": "AI / 大模型",
+      "categoryEn": "AI / LLM",
+      "stack": [
+        "Lua",
+        "Tool 0"
+      ],
+      "topics": [
+        "ai"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-40."
+        }
+      ],
+      "intro": "Intro for project-40"
+    },
+    {
+      "rank": 41,
+      "owner": "owner-41",
+      "name": "project-41",
+      "fullName": "owner-41/project-41",
+      "url": "https://github.com/owner-41/project-41",
+      "description": "Demo project for Developer tools",
+      "tldr": "A concise summary for project-41",
+      "language": "C#",
+      "languageColor": "#3572A5",
+      "stars": 6617,
+      "forks": 367,
+      "delta": 491,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.122,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "devtool",
+          "zh": "开发者工具",
+          "en": "Developer tools"
+        }
+      ],
+      "category": "devtool",
+      "categoryZh": "开发者工具",
+      "categoryEn": "Developer tools",
+      "stack": [
+        "C#",
+        "Tool 1"
+      ],
+      "topics": [
+        "devtool"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-41."
+        }
+      ],
+      "intro": "Intro for project-41"
+    },
+    {
+      "rank": 42,
+      "owner": "owner-42",
+      "name": "project-42",
+      "fullName": "owner-42/project-42",
+      "url": "https://github.com/owner-42/project-42",
+      "description": "Demo project for Web / frontend",
+      "tldr": "A concise summary for project-42",
+      "language": "PHP",
+      "languageColor": "#3572A5",
+      "stars": 6754,
+      "forks": 374,
+      "delta": 502,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.124,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "web",
+          "zh": "Web / 前端",
+          "en": "Web / frontend"
+        }
+      ],
+      "category": "web",
+      "categoryZh": "Web / 前端",
+      "categoryEn": "Web / frontend",
+      "stack": [
+        "PHP",
+        "Tool 2"
+      ],
+      "topics": [
+        "web"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-42."
+        }
+      ],
+      "intro": "Intro for project-42"
+    },
+    {
+      "rank": 43,
+      "owner": "owner-43",
+      "name": "project-43",
+      "fullName": "owner-43/project-43",
+      "url": "https://github.com/owner-43/project-43",
+      "description": "Demo project for Infra / cloud native",
+      "tldr": "A concise summary for project-43",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "stars": 6891,
+      "forks": 381,
+      "delta": 513,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.126,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "infra",
+          "zh": "基础设施 / 云原生",
+          "en": "Infra / cloud native"
+        }
+      ],
+      "category": "infra",
+      "categoryZh": "基础设施 / 云原生",
+      "categoryEn": "Infra / cloud native",
+      "stack": [
+        "Python",
+        "Tool 3"
+      ],
+      "topics": [
+        "infra"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-43."
+        }
+      ],
+      "intro": "Intro for project-43"
+    },
+    {
+      "rank": 44,
+      "owner": "owner-44",
+      "name": "project-44",
+      "fullName": "owner-44/project-44",
+      "url": "https://github.com/owner-44/project-44",
+      "description": "Demo project for Data / database",
+      "tldr": "A concise summary for project-44",
+      "language": "TypeScript",
+      "languageColor": "#3572A5",
+      "stars": 7028,
+      "forks": 388,
+      "delta": 524,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.128,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "data",
+          "zh": "数据 / 数据库",
+          "en": "Data / database"
+        }
+      ],
+      "category": "data",
+      "categoryZh": "数据 / 数据库",
+      "categoryEn": "Data / database",
+      "stack": [
+        "TypeScript",
+        "Tool 4"
+      ],
+      "topics": [
+        "data"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-44."
+        }
+      ],
+      "intro": "Intro for project-44"
+    },
+    {
+      "rank": 45,
+      "owner": "owner-45",
+      "name": "project-45",
+      "fullName": "owner-45/project-45",
+      "url": "https://github.com/owner-45/project-45",
+      "description": "Demo project for Security",
+      "tldr": "A concise summary for project-45",
+      "language": "Rust",
+      "languageColor": "#3572A5",
+      "stars": 7165,
+      "forks": 395,
+      "delta": 535,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.13,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "security",
+          "zh": "安全",
+          "en": "Security"
+        }
+      ],
+      "category": "security",
+      "categoryZh": "安全",
+      "categoryEn": "Security",
+      "stack": [
+        "Rust",
+        "Tool 0"
+      ],
+      "topics": [
+        "security"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-45."
+        }
+      ],
+      "intro": "Intro for project-45"
+    },
+    {
+      "rank": 46,
+      "owner": "owner-46",
+      "name": "project-46",
+      "fullName": "owner-46/project-46",
+      "url": "https://github.com/owner-46/project-46",
+      "description": "Demo project for Mobile",
+      "tldr": "A concise summary for project-46",
+      "language": "Go",
+      "languageColor": "#3572A5",
+      "stars": 7302,
+      "forks": 402,
+      "delta": 546,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.132,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "mobile",
+          "zh": "移动端",
+          "en": "Mobile"
+        }
+      ],
+      "category": "mobile",
+      "categoryZh": "移动端",
+      "categoryEn": "Mobile",
+      "stack": [
+        "Go",
+        "Tool 1"
+      ],
+      "topics": [
+        "mobile"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-46."
+        }
+      ],
+      "intro": "Intro for project-46"
+    },
+    {
+      "rank": 47,
+      "owner": "owner-47",
+      "name": "project-47",
+      "fullName": "owner-47/project-47",
+      "url": "https://github.com/owner-47/project-47",
+      "description": "Demo project for Blockchain / Web3",
+      "tldr": "A concise summary for project-47",
+      "language": "C++",
+      "languageColor": "#3572A5",
+      "stars": 7439,
+      "forks": 409,
+      "delta": 557,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.134,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "blockchain",
+          "zh": "区块链 / Web3",
+          "en": "Blockchain / Web3"
+        }
+      ],
+      "category": "blockchain",
+      "categoryZh": "区块链 / Web3",
+      "categoryEn": "Blockchain / Web3",
+      "stack": [
+        "C++",
+        "Tool 2"
+      ],
+      "topics": [
+        "blockchain"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-47."
+        }
+      ],
+      "intro": "Intro for project-47"
+    },
+    {
+      "rank": 48,
+      "owner": "owner-48",
+      "name": "project-48",
+      "fullName": "owner-48/project-48",
+      "url": "https://github.com/owner-48/project-48",
+      "description": "Demo project for Learning",
+      "tldr": "A concise summary for project-48",
+      "language": "Java",
+      "languageColor": "#3572A5",
+      "stars": 7576,
+      "forks": 416,
+      "delta": 568,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.136,
+      "riskLevel": "low",
+      "categories": [
+        {
+          "key": "learning",
+          "zh": "学习",
+          "en": "Learning"
+        }
+      ],
+      "category": "learning",
+      "categoryZh": "学习",
+      "categoryEn": "Learning",
+      "stack": [
+        "Java",
+        "Tool 3"
+      ],
+      "topics": [
+        "learning"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-48."
+        }
+      ],
+      "intro": "Intro for project-48"
+    },
+    {
+      "rank": 49,
+      "owner": "owner-49",
+      "name": "project-49",
+      "fullName": "owner-49/project-49",
+      "url": "https://github.com/owner-49/project-49",
+      "description": "Demo project for Productivity",
+      "tldr": "A concise summary for project-49",
+      "language": "Kotlin",
+      "languageColor": "#3572A5",
+      "stars": 7713,
+      "forks": 423,
+      "delta": 579,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.138,
+      "riskLevel": "medium",
+      "categories": [
+        {
+          "key": "productivity",
+          "zh": "效率 / 自动化",
+          "en": "Productivity"
+        }
+      ],
+      "category": "productivity",
+      "categoryZh": "效率 / 自动化",
+      "categoryEn": "Productivity",
+      "stack": [
+        "Kotlin",
+        "Tool 4"
+      ],
+      "topics": [
+        "productivity"
+      ],
+      "source": "language",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-49."
+        }
+      ],
+      "intro": "Intro for project-49"
+    },
+    {
+      "rank": 50,
+      "owner": "owner-50",
+      "name": "project-50",
+      "fullName": "owner-50/project-50",
+      "url": "https://github.com/owner-50/project-50",
+      "description": "Demo project for Game / graphics",
+      "tldr": "A concise summary for project-50",
+      "language": "Swift",
+      "languageColor": "#3572A5",
+      "stars": 7850,
+      "forks": 430,
+      "delta": 590,
+      "contributors": [
+        "alice",
+        "bob"
+      ],
+      "growthRatio": 0.14,
+      "riskLevel": "high",
+      "categories": [
+        {
+          "key": "game",
+          "zh": "游戏 / 图形",
+          "en": "Game / graphics"
+        }
+      ],
+      "category": "game",
+      "categoryZh": "游戏 / 图形",
+      "categoryEn": "Game / graphics",
+      "stack": [
+        "Swift",
+        "Tool 0"
+      ],
+      "topics": [
+        "game"
+      ],
+      "source": "popular",
+      "riskCount": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "risks": [
+        "maintenance"
+      ],
+      "highlights": [
+        "active"
+      ],
+      "deepDive": [
+        {
+          "label": "项目定位",
+          "text": "Demo positioning for project-50."
+        }
+      ],
+      "intro": "Intro for project-50"
+    }
+  ],
+  "summary": {
+    "repoCount": 50,
+    "totalDelta": 16025,
+    "totalStars": 224675,
+    "topLanguage": "TypeScript",
+    "avgGrowth": 0.09,
+    "riskCount": {
+      "high": 17,
+      "medium": 17,
+      "low": 16
+    },
+    "enrichedCount": 10,
+    "topMover": {
+      "fullName": "octo-labs/llm-agent-kit"
+    }
+  },
+  "mermaid": [],
+  "focusCount": 3,
+  "cache": "fresh",
+  "durationMs": 1234,
+  "shortfall": 0,
+  "shortfallReason": null,
+  "apiCalls": 12,
+  "lastVia": "direct",
+  "networkStatus": "direct",
+  "catalog": [
+    {
+      "key": "ai",
+      "zh": "AI / 大模型",
+      "en": "AI / LLM",
+      "keywords": []
+    },
+    {
+      "key": "devtool",
+      "zh": "开发者工具",
+      "en": "Developer tools",
+      "keywords": []
+    },
+    {
+      "key": "web",
+      "zh": "Web / 前端",
+      "en": "Web / frontend",
+      "keywords": []
+    },
+    {
+      "key": "infra",
+      "zh": "基础设施 / 云原生",
+      "en": "Infra / cloud native",
+      "keywords": []
+    },
+    {
+      "key": "data",
+      "zh": "数据 / 数据库",
+      "en": "Data / database",
+      "keywords": []
+    },
+    {
+      "key": "security",
+      "zh": "安全",
+      "en": "Security",
+      "keywords": []
+    },
+    {
+      "key": "mobile",
+      "zh": "移动端",
+      "en": "Mobile",
+      "keywords": []
+    },
+    {
+      "key": "blockchain",
+      "zh": "区块链 / Web3",
+      "en": "Blockchain / Web3",
+      "keywords": []
+    },
+    {
+      "key": "learning",
+      "zh": "学习",
+      "en": "Learning",
+      "keywords": []
+    },
+    {
+      "key": "productivity",
+      "zh": "效率 / 自动化",
+      "en": "Productivity",
+      "keywords": []
+    },
+    {
+      "key": "game",
+      "zh": "游戏 / 图形",
+      "en": "Game / graphics",
+      "keywords": []
+    },
+    {
+      "key": "hardware",
+      "zh": "硬件 / 嵌入式",
+      "en": "Hardware / embedded",
+      "keywords": []
+    },
+    {
+      "key": "research",
+      "zh": "科研 / 论文",
+      "en": "Research",
+      "keywords": []
+    }
+  ],
+  "customBoards": [],
+  "deepCount": 10,
+  "installQuality": "pass"
+}

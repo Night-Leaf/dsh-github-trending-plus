@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "title": "GitHub Trending Radar",
+    "description": "Fetch GitHub Trending (daily / weekly / monthly, filterable by language), filter with 13 category boards plus custom boards, and show up to 50 repositories per report. Search by repository name, owner, description, topics or language; analyze every repository (summary, star growth, stack, highlights, risks) and render an interactive card report (the first 10 cards are deep cards, the rest are compact cards, and Chinese READMEs get a badge), while surfacing shortfall, fallback-network and install-quality notices."
+  },
+  "nav": {
+    "title": "GitHub Trending"
+  }
+}

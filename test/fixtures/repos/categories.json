@@ -1,0 +1,210 @@
+{
+  "description": "Offline fixtures for the Task-3 category multi-label tests. Each case carries a TrendingRepo, the RepoFacts that enrichment would return, and the expected label keys (primary first).",
+  "cases": [
+    {
+      "name": "AI repo that is also a learning resource",
+      "repo": {
+        "rank": 1,
+        "owner": "acme",
+        "name": "llm-agent-kit",
+        "fullName": "acme/llm-agent-kit",
+        "url": "https://github.com/acme/llm-agent-kit",
+        "description": "An LLM agent framework for GPT and Claude with RAG support",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "stars": 12000,
+        "forks": 800,
+        "delta": 900,
+        "contributors": ["alice", "bob"],
+        "source": "popular"
+      },
+      "facts": {
+        "fullName": "acme/llm-agent-kit",
+        "enriched": true,
+        "topics": ["ai", "llm", "tutorial"],
+        "license": "MIT",
+        "archived": false,
+        "createdAt": "2025-01-01T00:00:00Z",
+        "pushedAt": "2026-11-01T00:00:00Z",
+        "openIssues": 42,
+        "homepage": null,
+        "readmeSnippet": "Tutorial and guide for building agents with large language models.",
+        "note": null
+      },
+      "expected": {
+        "keys": ["ai", "learning"],
+        "primary": "ai"
+      }
+    },
+    {
+      "name": "Repository with no category evidence",
+      "repo": {
+        "rank": 2,
+        "owner": "acme",
+        "name": "quiet-utils",
+        "fullName": "acme/quiet-utils",
+        "url": "https://github.com/acme/quiet-utils",
+        "description": "Small helper functions for everyday scripting",
+        "language": "Zig",
+        "languageColor": "#ec915c",
+        "stars": 320,
+        "forks": 12,
+        "delta": 40,
+        "contributors": ["carol"]
+      },
+      "facts": {
+        "fullName": "acme/quiet-utils",
+        "enriched": false,
+        "topics": [],
+        "license": null,
+        "archived": false,
+        "createdAt": null,
+        "pushedAt": null,
+        "openIssues": null,
+        "homepage": null,
+        "readmeSnippet": "Utilities for scripts.",
+        "note": "not enriched"
+      },
+      "expected": {
+        "keys": [],
+        "primary": null
+      }
+    },
+    {
+      "name": "Game engine with graphics work",
+      "repo": {
+        "rank": 3,
+        "owner": "pixel",
+        "name": "pixel-forge",
+        "fullName": "pixel/pixel-forge",
+        "url": "https://github.com/pixel/pixel-forge",
+        "description": "An open source game engine with a Vulkan renderer and ECS",
+        "language": "C++",
+        "languageColor": "#f34b7d",
+        "stars": 5400,
+        "forks": 300,
+        "delta": 260,
+        "contributors": ["dave", "erin"]
+      },
+      "facts": {
+        "fullName": "pixel/pixel-forge",
+        "enriched": true,
+        "topics": ["game-engine", "graphics", "vulkan"],
+        "license": "Apache-2.0",
+        "archived": false,
+        "createdAt": "2024-06-01T00:00:00Z",
+        "pushedAt": "2026-10-30T00:00:00Z",
+        "openIssues": 18,
+        "homepage": null,
+        "readmeSnippet": "A game engine for 3D worlds with a Vulkan renderer.",
+        "note": null
+      },
+      "expected": {
+        "keys": ["game"],
+        "primary": "game"
+      }
+    },
+    {
+      "name": "Embedded firmware project",
+      "repo": {
+        "rank": 4,
+        "owner": "chip",
+        "name": "esp32-forge",
+        "fullName": "chip/esp32-forge",
+        "url": "https://github.com/chip/esp32-forge",
+        "description": "Embedded firmware for ESP32 microcontrollers with GPIO and USB drivers",
+        "language": "C",
+        "languageColor": "#555555",
+        "stars": 2100,
+        "forks": 170,
+        "delta": 150,
+        "contributors": ["frank"]
+      },
+      "facts": {
+        "fullName": "chip/esp32-forge",
+        "enriched": true,
+        "topics": ["embedded", "firmware", "iot"],
+        "license": "MIT",
+        "archived": false,
+        "createdAt": "2023-03-01T00:00:00Z",
+        "pushedAt": "2026-10-20T00:00:00Z",
+        "openIssues": 9,
+        "homepage": null,
+        "readmeSnippet": "Firmware for ESP32 boards with GPIO and USB support.",
+        "note": null
+      },
+      "expected": {
+        "keys": ["hardware"],
+        "primary": "hardware"
+      }
+    },
+    {
+      "name": "Research toolkit about papers",
+      "repo": {
+        "rank": 5,
+        "owner": "lab",
+        "name": "paper-lens",
+        "fullName": "lab/paper-lens",
+        "url": "https://github.com/lab/paper-lens",
+        "description": "A research toolkit for scientific papers, citations and reproducibility",
+        "language": "Python",
+        "languageColor": "#3572A5",
+        "stars": 4800,
+        "forks": 410,
+        "delta": 210,
+        "contributors": ["grace", "heidi"]
+      },
+      "facts": {
+        "fullName": "lab/paper-lens",
+        "enriched": true,
+        "topics": ["research", "paper", "science"],
+        "license": "BSD-3-Clause",
+        "archived": false,
+        "createdAt": "2024-11-01T00:00:00Z",
+        "pushedAt": "2026-11-02T00:00:00Z",
+        "openIssues": 23,
+        "homepage": null,
+        "readmeSnippet": "Research paper collection with reproducible experiments.",
+        "note": null
+      },
+      "expected": {
+        "keys": ["research", "learning"],
+        "primary": "research"
+      }
+    },
+    {
+      "name": "Repo matching more than three buckets is capped",
+      "repo": {
+        "rank": 6,
+        "owner": "poly",
+        "name": "poly-toolbox",
+        "fullName": "poly/poly-toolbox",
+        "url": "https://github.com/poly/poly-toolbox",
+        "description": "AI agent with a React web UI, Docker deployment and a SQL database",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "stars": 3300,
+        "forks": 200,
+        "delta": 180,
+        "contributors": ["ivan"]
+      },
+      "facts": {
+        "fullName": "poly/poly-toolbox",
+        "enriched": true,
+        "topics": ["ai", "react", "docker", "database", "tutorial"],
+        "license": "MIT",
+        "archived": false,
+        "createdAt": "2025-05-01T00:00:00Z",
+        "pushedAt": "2026-10-25T00:00:00Z",
+        "openIssues": 7,
+        "homepage": null,
+        "readmeSnippet": "A toolbox of agents for web developers.",
+        "note": null
+      },
+      "expected": {
+        "keys": ["ai", "infra", "data"],
+        "primary": "ai"
+      }
+    }
+  ]
+}

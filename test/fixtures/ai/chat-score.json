@@ -1,0 +1,16 @@
+{
+  "id": "chatcmpl-fixture-score",
+  "object": "chat.completion",
+  "created": 1760000000,
+  "model": "fixture-model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\"items\":[{\"fullName\":\"acme/agent-kit\",\"score\":78,\"reason\":\"构建 LLM 智能体的工具包，与需求直接相关。\"},{\"fullName\":\"acme/rag-cli\",\"score\":130,\"reason\":\"检索增强生成的命令行工具，覆盖切分、向量化、召回与重排，文档完整，适合先做小规模验证再推广到团队内部使用，维护频率稳定，推荐优先尝试。\"},{\"fullName\":\"acme/tiny-utils\",\"score\":-5,\"reason\":\"通用小工具，与本次需求无关。\"},{\"fullName\":\"acme/site-builder\",\"score\":55.6,\"reason\":\"静态站点生成器，可间接用于文档站。\"},{\"fullName\":\"acme/ghost\",\"score\":300,\"reason\":\"内容管理平台，匹配度被模型写超上限。\"},{\"fullName\":\"ghost/not-in-report\",\"score\":99,\"reason\":\"不在榜单输入里，应被丢弃。\"}]}\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

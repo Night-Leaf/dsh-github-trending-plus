@@ -1,0 +1,13 @@
+{
+  "host": "github.com",
+  "host2": "raw.githubusercontent.com",
+  "config": {
+    "github.com": ["140.82.112.3", "203.0.113.10", "203.0.113.10", "not-an-ip"],
+    "*.githubusercontent.com": ["203.0.113.20"],
+    "*": ["203.0.113.30"]
+  },
+  "expectedIncludes": ["203.0.113.10", "203.0.113.30"],
+  "host2ExpectedIncludes": ["203.0.113.20", "203.0.113.30"],
+  "builtinFirst": "20.205.243.166",
+  "envIp": "198.51.100.9"
+}

@@ -1,0 +1,25 @@
+# 依赖与构建产物
+node_modules/
+pnpm-lock.yaml
+
+# 测试输出（报告、面板快照、指标、临时截图）
+test/out/
+
+# 打包产物（npm pack 的 tarball 只作为 GitHub Release 附件上传，不进仓库）
+dist/
+*.tgz
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 注意：index.js、client.js、lib/*.js 是插件运行时真正加载的文件，
+# 本包没有 prepare/postinstall 构建脚本，因此必须提交到仓库，
+# 不要在这里忽略它们（否则从 git 安装的副本无法运行）。
+.npm-cache/

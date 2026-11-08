@@ -1,0 +1,164 @@
+{
+  "cards": [
+    {
+      "name": "AI repository mentioning exactly three models",
+      "repo": {
+        "rank": 1,
+        "owner": "acme",
+        "name": "model-router",
+        "fullName": "acme/model-router",
+        "url": "https://github.com/acme/model-router",
+        "description": "Route prompts between GPT-4o, Claude and Gemini from one API.",
+        "language": "TypeScript",
+        "languageColor": "#3178c6",
+        "stars": 12000,
+        "forks": 800,
+        "delta": 900,
+        "contributors": ["alice", "bob", "carol"],
+        "source": "popular"
+      },
+      "facts": {
+        "fullName": "acme/model-router",
+        "enriched": true,
+        "topics": ["llm", "gpt-4o", "claude", "gemini"],
+        "license": "MIT",
+        "archived": false,
+        "createdAt": "2024-01-01T00:00:00Z",
+        "pushedAt": "2026-10-01T00:00:00Z",
+        "openIssues": 12,
+        "homepage": null,
+        "readmeSnippet": "Quick start: npm install model-router, set an API key and send a request.",
+        "readmeZh": false,
+        "readmePath": "README.md",
+        "note": null
+      },
+      "expected": {
+        "labels": ["技术栈", "需要留意", "上手门槛", "项目介绍"],
+        "forbiddenLabels": ["增长曲线", "值得关注"],
+        "models": ["GPT-4o", "Claude", "Gemini"],
+        "hasOnboarding": true
+      }
+    },
+    {
+      "name": "Non-AI repository has no model chips",
+      "repo": {
+        "rank": 2,
+        "owner": "acme",
+        "name": "sqlite-lens",
+        "fullName": "acme/sqlite-lens",
+        "url": "https://github.com/acme/sqlite-lens",
+        "description": "A fast SQL query engine for local analytics with a small footprint.",
+        "language": "Rust",
+        "languageColor": "#dea584",
+        "stars": 4300,
+        "forks": 210,
+        "delta": 120,
+        "contributors": ["dana", "erin"],
+        "source": "language"
+      },
+      "facts": {
+        "fullName": "acme/sqlite-lens",
+        "enriched": true,
+        "topics": ["sql", "duckdb", "analytics"],
+        "license": "Apache-2.0",
+        "archived": false,
+        "createdAt": "2025-05-01T00:00:00Z",
+        "pushedAt": "2026-10-20T00:00:00Z",
+        "openIssues": 7,
+        "homepage": null,
+        "readmeSnippet": "Install with npm install and point it at a local database.",
+        "readmeZh": false,
+        "readmePath": "README.md",
+        "note": null
+      },
+      "expected": {
+        "labels": ["技术栈", "需要留意", "上手门槛", "项目介绍"],
+        "forbiddenLabels": ["增长曲线", "值得关注"],
+        "models": [],
+        "hasOnboarding": true
+      }
+    },
+    {
+      "name": "Repository without README or topics omits the onboarding block",
+      "repo": {
+        "rank": 3,
+        "owner": "acme",
+        "name": "build-light",
+        "fullName": "acme/build-light",
+        "url": "https://github.com/acme/build-light",
+        "description": "A minimal terminal utility for checking build status.",
+        "language": "Go",
+        "languageColor": "#00add8",
+        "stars": 260,
+        "forks": 12,
+        "delta": 40,
+        "contributors": ["frank"],
+        "source": "popular"
+      },
+      "facts": {
+        "fullName": "acme/build-light",
+        "enriched": false,
+        "topics": [],
+        "license": null,
+        "archived": false,
+        "createdAt": null,
+        "pushedAt": null,
+        "openIssues": null,
+        "homepage": null,
+        "readmeSnippet": null,
+        "readmeZh": false,
+        "readmePath": null,
+        "note": "not enriched (budget)"
+      },
+      "expected": {
+        "labels": ["技术栈", "需要留意", "项目介绍"],
+        "forbiddenLabels": ["增长曲线", "值得关注", "上手门槛"],
+        "models": [],
+        "hasOnboarding": false
+      }
+    }
+  ],
+  "readme": [
+    {
+      "name": "README.zh-CN.md is Chinese by file name",
+      "fullName": "demo/zh-dash",
+      "fileName": "README.zh-CN.md",
+      "requestPath": "README.zh-CN.md",
+      "expectedZh": true,
+      "expectedPath": "README.zh-CN.md"
+    },
+    {
+      "name": "README_CN.md is Chinese by file name",
+      "fullName": "demo/zh-underscore",
+      "fileName": "README_CN.md",
+      "requestPath": "README_CN.md",
+      "expectedZh": true,
+      "expectedPath": "README_CN.md"
+    },
+    {
+      "name": "English README.md is classified by its body",
+      "fullName": "demo/en",
+      "fileName": "README-en.md",
+      "requestPath": "README.md",
+      "expectedZh": false,
+      "expectedPath": "README.md"
+    }
+  ],
+  "enrichment": {
+    "enrichCount": 10,
+    "readmeCount": 0,
+    "repos": [
+      { "rank": 1, "owner": "budget", "name": "repo-01", "fullName": "budget/repo-01", "url": "https://github.com/budget/repo-01", "description": "Repository one.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 2, "owner": "budget", "name": "repo-02", "fullName": "budget/repo-02", "url": "https://github.com/budget/repo-02", "description": "Repository two.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 3, "owner": "budget", "name": "repo-03", "fullName": "budget/repo-03", "url": "https://github.com/budget/repo-03", "description": "Repository three.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 4, "owner": "budget", "name": "repo-04", "fullName": "budget/repo-04", "url": "https://github.com/budget/repo-04", "description": "Repository four.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 5, "owner": "budget", "name": "repo-05", "fullName": "budget/repo-05", "url": "https://github.com/budget/repo-05", "description": "Repository five.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 6, "owner": "budget", "name": "repo-06", "fullName": "budget/repo-06", "url": "https://github.com/budget/repo-06", "description": "Repository six.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 7, "owner": "budget", "name": "repo-07", "fullName": "budget/repo-07", "url": "https://github.com/budget/repo-07", "description": "Repository seven.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 8, "owner": "budget", "name": "repo-08", "fullName": "budget/repo-08", "url": "https://github.com/budget/repo-08", "description": "Repository eight.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 9, "owner": "budget", "name": "repo-09", "fullName": "budget/repo-09", "url": "https://github.com/budget/repo-09", "description": "Repository nine.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 10, "owner": "budget", "name": "repo-10", "fullName": "budget/repo-10", "url": "https://github.com/budget/repo-10", "description": "Repository ten.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] },
+      { "rank": 11, "owner": "budget", "name": "repo-11", "fullName": "budget/repo-11", "url": "https://github.com/budget/repo-11", "description": "Repository eleven.", "language": "TypeScript", "languageColor": null, "stars": 100, "forks": 1, "delta": 5, "contributors": [] }
+    ]
+  }
+}

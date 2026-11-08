@@ -1,0 +1,24 @@
+{
+  "total_count": 2,
+  "incomplete_results": false,
+  "items": [
+    {
+      "full_name": "search/dsh-agent-panel",
+      "name": "dsh-agent-panel",
+      "owner": { "login": "search" },
+      "html_url": "https://github.com/search/dsh-agent-panel",
+      "description": "A DSH panel plugin for agent workflows.",
+      "stargazers_count": 321,
+      "language": "TypeScript"
+    },
+    {
+      "full_name": "search/llm-filter-kit",
+      "name": "llm-filter-kit",
+      "owner": { "login": "search" },
+      "html_url": "https://github.com/search/llm-filter-kit",
+      "description": "Natural-language filtering helpers for repository lists.",
+      "stargazers_count": 88,
+      "language": "JavaScript"
+    }
+  ]
+}

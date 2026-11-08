@@ -1,0 +1,14 @@
+# Standalone Cordis loader example for the GitHub Trending plugin.
+#
+# The bundle install path does not need this file: package.json -> dsh.bundle.patch
+# -> cordis.patch.yml is what `plugin_manager install_bundle` reads. This file
+# exists so the plugin can also be mounted by hand in a custom cordis.yml, for
+# example inside a dedicated profile or an agent preset.
+- id: dsh-github-trending-plus
+  name: dsh-github-trending-plus
+  config:
+    defaultSince: daily
+    defaultLimit: 50
+    # Keep secrets out of this file: the plugin reads GITHUB_TOKEN / GH_TOKEN
+    # from the environment when no config.token is supplied.
+    # token: ''   # optional, raises the GitHub API quota (see README)
